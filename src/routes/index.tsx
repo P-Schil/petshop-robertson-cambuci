@@ -58,7 +58,7 @@ function Index() {
       </header>
 
       <section id="inicio" className="relative flex min-h-[760px] items-center pt-20">
-        <img fetchPriority="high" src="https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=2200&q=85" alt="Foto profissional de um cachorro recebendo cuidados em um pet shop" className="absolute inset-0 size-full object-cover" />
+        <img fetchPriority="high" src="https://nowtiva.com/blog/images/pet_grooming_socal.png" alt="Foto profissional de um cachorro recebendo cuidados em um pet shop" className="absolute inset-0 size-full object-cover" />
         <div className="absolute inset-0 bg-slate-950/65" /><div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/55 to-transparent" />
         <div className="relative mx-auto w-full max-w-7xl px-5 py-24 lg:px-8">
           <div className="max-w-3xl animate-[fadeUp_.7s_ease-out]">
@@ -92,7 +92,7 @@ function Index() {
           </div>
           <div className="relative">
             <div className="absolute -inset-5 rounded-[2.5rem] bg-[#f9bee0]/30 blur-2xl" />
-            <img loading="lazy" src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=1200&q=85" alt="Profissional oferecendo cuidado atento a um cachorro" className="relative h-[520px] w-full rounded-[2.5rem] object-cover shadow-2xl" />
+            <img loading="lazy" src="https://cdn.prod.website-files.com/627bd0a27262423d70ecbe31/6a1f2142ca4f5bcbb2b46431_Medicina%20Veterin%C3%A1ria.png" alt="Profissional oferecendo cuidado atento a um cachorro" className="relative h-[520px] w-full rounded-[2.5rem] object-cover shadow-2xl" />
             <div className="absolute -bottom-5 left-5 right-5 rounded-2xl border border-white bg-white/95 p-5 shadow-xl sm:left-auto sm:w-80"><div className="flex gap-3"><span className="grid size-11 shrink-0 place-items-center rounded-xl bg-[#f9fb93]"><HeartHandshake className="size-5" /></span><div><strong className="block text-sm font-black">Atendimento personalizado</strong><span className="mt-1 block text-xs leading-5 text-slate-500">Foco no bem-estar do pet e na tranquilidade do tutor.</span></div></div></div>
           </div>
         </div>
