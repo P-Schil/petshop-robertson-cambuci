@@ -92,7 +92,7 @@ function Index() {
           </div>
           <div className="relative">
             <div className="absolute -inset-5 rounded-[2.5rem] bg-[#f9bee0]/30 blur-2xl" />
-            <img loading="lazy" src="https://www.petscorner.co.uk/Images/Store/large/Pets-Corner-Brentwood-Interior-2.jpg" alt="Profissional oferecendo cuidado atento a um cachorro" className="relative h-[520px] w-full rounded-[2.5rem] object-cover shadow-2xl" />
+            <img loading="lazy" src="https://images.pexels.com/photos/6568949/pexels-photo-6568949.jpeg?auto=compress&dpr=1&w=1200" alt="Profissional oferecendo cuidado atento a um cachorro" className="relative h-[520px] w-full rounded-[2.5rem] object-cover shadow-2xl" />
             <div className="absolute -bottom-5 left-5 right-5 rounded-2xl border border-white bg-white/95 p-5 shadow-xl sm:left-auto sm:w-80"><div className="flex gap-3"><span className="grid size-11 shrink-0 place-items-center rounded-xl bg-[#f9fb93]"><HeartHandshake className="size-5" /></span><div><strong className="block text-sm font-black">Atendimento personalizado</strong><span className="mt-1 block text-xs leading-5 text-slate-500">Foco no bem-estar do pet e na tranquilidade do tutor.</span></div></div></div>
           </div>
         </div>
