@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import {
   ArrowRight, CalendarCheck, Check, ChevronLeft, ChevronRight, Clock3,
   HeartHandshake, MapPin, MessageCircle, PawPrint, Scissors, ShoppingBag,
-  ShieldCheck, Sparkles, Star, Stethoscope, Users, Waves
+  ShieldCheck, Sparkles, Star, Users, Waves
 } from "lucide-react";
 import { useState } from "react";
 
@@ -14,7 +14,7 @@ const services = [
   { icon: Scissors, title: "Banho e Tosa", text: "Higiene e estética com atenção ao conforto, às características e ao bem-estar de cada pet.", image: "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=900&q=80" },
   { icon: Waves, title: "Banho com Ozonioterapia", text: "Uma opção de cuidado complementar no banho, integrada a uma experiência de higiene mais completa.", image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=900&q=80" },
   { icon: ShoppingBag, title: "Ração e Acessórios", text: "Produtos para alimentação, rotina e conforto do seu pet, reunidos em um só endereço.", image: "https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=900&q=80" },
-  { icon: Stethoscope, title: "Cuidado Veterinário", text: "Atendimento especializado para apoiar a saúde e o bem-estar dos animais de estimação.", image: "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?auto=format&fit=crop&w=900&q=80" },
+  { icon: ShoppingBag, title: "Produtos para o Cuidado", text: "Rações, acessórios e produtos para higiene e rotina do seu pet.", image: "https://www.petscorner.co.uk/Images/Store/large/pets-corner-barnes-interior-2.jpg" },
   { icon: HeartHandshake, title: "Atendimento Personalizado", text: "Uma abordagem próxima e cuidadosa para que tutor e pet tenham mais segurança em cada atendimento.", image: "https://images.unsplash.com/photo-1599443015574-6c1c7c8f9a12?auto=format&fit=crop&w=900&q=80" },
   { icon: CalendarCheck, title: "Orientação para o Cuidado", text: "Informações claras para ajudar você a tomar decisões conscientes sobre a rotina do seu animal.", image: "https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?auto=format&fit=crop&w=900&q=80" },
 ];
@@ -58,7 +58,7 @@ function Index() {
       </header>
 
       <section id="inicio" className="relative flex min-h-[760px] items-center pt-20">
-        <img fetchPriority="high" src="https://nowtiva.com/blog/images/pet_grooming_socal.png" alt="Foto profissional de um cachorro recebendo cuidados em um pet shop" className="absolute inset-0 size-full object-cover" />
+        <img fetchPriority="high" src="https://images.pexels.com/photos/9986354/pexels-photo-9986354.jpeg?auto=compress&dpr=1&h=1200&w=2000" alt="Foto profissional de um cachorro recebendo cuidados em um pet shop" className="absolute inset-0 size-full object-cover" />
         <div className="absolute inset-0 bg-slate-950/65" /><div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/55 to-transparent" />
         <div className="relative mx-auto w-full max-w-7xl px-5 py-24 lg:px-8">
           <div className="max-w-3xl animate-[fadeUp_.7s_ease-out]">
@@ -92,7 +92,7 @@ function Index() {
           </div>
           <div className="relative">
             <div className="absolute -inset-5 rounded-[2.5rem] bg-[#f9bee0]/30 blur-2xl" />
-            <img loading="lazy" src="https://cdn.prod.website-files.com/627bd0a27262423d70ecbe31/6a1f2142ca4f5bcbb2b46431_Medicina%20Veterin%C3%A1ria.png" alt="Profissional oferecendo cuidado atento a um cachorro" className="relative h-[520px] w-full rounded-[2.5rem] object-cover shadow-2xl" />
+            <img loading="lazy" src="https://www.petscorner.co.uk/Images/Store/large/Pets-Corner-Brentwood-Interior-2.jpg" alt="Profissional oferecendo cuidado atento a um cachorro" className="relative h-[520px] w-full rounded-[2.5rem] object-cover shadow-2xl" />
             <div className="absolute -bottom-5 left-5 right-5 rounded-2xl border border-white bg-white/95 p-5 shadow-xl sm:left-auto sm:w-80"><div className="flex gap-3"><span className="grid size-11 shrink-0 place-items-center rounded-xl bg-[#f9fb93]"><HeartHandshake className="size-5" /></span><div><strong className="block text-sm font-black">Atendimento personalizado</strong><span className="mt-1 block text-xs leading-5 text-slate-500">Foco no bem-estar do pet e na tranquilidade do tutor.</span></div></div></div>
           </div>
         </div>
